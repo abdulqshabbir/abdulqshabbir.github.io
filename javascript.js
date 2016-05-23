@@ -5,7 +5,7 @@ require("jsdom").env("", function(err, window) {
 	}
 	var $ = require("jquery")(window);
 
-	console.log("hi"); 
+	console.log("hi");
 
 });
 
@@ -23,7 +23,7 @@ function getLocation(position) {
 function getApiData(position) {
     var lat = position.coords.latitude;
     var lon = position.coords.longitude;
-    var url = "http://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon="+ lon + "&appid=867ed23a9a61fefc12bb5209f87bb417";
+    var url = "https://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon="+ lon + "&appid=867ed23a9a61fefc12bb5209f87bb417";
     $.getJSON(url, function(json) {
         var city = json.name;
         console.log(city);
