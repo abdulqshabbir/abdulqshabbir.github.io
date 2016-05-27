@@ -1,0 +1,13 @@
+onClick of "#add/#multiply/#divide/#subtract"
+
+1. remember the current number (as a string)
+
+2. Store the firstNumber and execute the outer function (freeze inner)
+
+3. when the equal sign is pressed remember the secondNumber
+
+4. Unfreeze the inner function by invoking it
+
+5. Perform operation (+/-/x)
+
+6. Display

@@ -1,0 +1,58 @@
+---
+# Front matter comment
+---
+$orange: #ff8c00
+$grey: #4c4c4c
+$lightgrey: #d6d6d6
+$white: #fff
+$black: #393939
+$borderColor: #BDBDBD
+
+
+//reset margin and padding
+
+html, body, h1, h2, h3
+    margin: 0px
+    padding: 0px
+
+//set background-color for buttons
+
+#divide, #multiply, #subtract, #add, #equal
+    background-color: $orange
+    color: $white
+
+#allClear, #plusMinus, #percent, #one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #zero, #point
+    background-color: $lightgrey
+
+//Set background image
+html
+    background-size: 800px
+
+
+//Center calculator horzonally, set width, and create calculator border
+body
+    max-width: 230px
+    margin-top: 80px
+    margin-left: auto
+    margin-right: auto
+
+//Style Calculator Display
+#display
+    width: 230px
+    height: 78px
+    line-height: 78px
+    background-color: $grey
+    font-family: "Orbitron", sans-serif
+    font-weight: 200
+    font-size: 20px
+    text-align: right
+    color: $white
+
+
+//Style Calculator Buttons
+.btn
+    border-radius: 0px !important
+    border-color: $borderColor
+    height: 50px !important
+    font-size: 18px
+    font-weight: 200
