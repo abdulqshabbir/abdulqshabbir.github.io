@@ -1,58 +1,46 @@
 ---
 # Front matter comment
 ---
+
+//declare SASS: variables
 $orange: #ff8c00
 $grey: #4c4c4c
 $lightgrey: #d6d6d6
 $white: #fff
 $black: #393939
 $borderColor: #BDBDBD
+$font-stack: "Orbitron", sans-serif
 
 
-//reset margin and padding
+//reset all margins and padding
+h1, h2, h3, .btn, .row
+    margin: 0
+    padding: 0
 
-html, body, h1, h2, h3
-    margin: 0px
-    padding: 0px
+html, body
+    height: 100%
 
-//set background-color for buttons
-
-#divide, #multiply, #subtract, #add, #equal
-    background-color: $orange
-    color: $white
-
-#allClear, #plusMinus, #percent, #one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #zero, #point
-    background-color: $lightgrey
-
-//Set background image
-html
-    background-size: 800px
-
-
-//Center calculator horzonally, set width, and create calculator border
-body
+//give container a width and center horizontally
+.container-calculator
     max-width: 230px
-    margin-top: 80px
     margin-left: auto
     margin-right: auto
 
-//Style Calculator Display
+//style calcualtor display
 #display
-    width: 230px
     height: 78px
-    line-height: 78px
+    width: 230px
     background-color: $grey
     font-family: "Orbitron", sans-serif
     font-weight: 200
-    font-size: 20px
     text-align: right
     color: $white
+    font-size: 25px
 
-
-//Style Calculator Buttons
+//style calculator buttons
 .btn
-    border-radius: 0px !important
-    border-color: $borderColor
-    height: 50px !important
-    font-size: 18px
+    border-radius: 0px
+    height: 50px
+    font-size: 20px
     font-weight: 200
+    color: $white

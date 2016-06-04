@@ -1,4 +1,63 @@
 <!DOCTYPE html>
+ <html lang="en">
+   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <title>My JS Calculator</title>
+    </head>
+        <body class="valign-wrapper">
+           <div class="container-calculator valign">
+                <div class="row displayParent">
+                   <div class="col s12 displayChild" id="display"></div>
+                </div>
+                <div class="row">
+                   <button type="button" class="col s3 btn teal lighten-2 z-depth-0" id="allClear">AC</button>
+                   <button type="button" class="col s3 btn teal lighten-2 z-depth-0" id="plusMinus">&plusmn;</button>
+                   <button type="button" class="col s3 btn teal lighten-2 z-depth-0" id="percent">%</button>
+                   <button type="button" class="col s3 btn teal lighten-2 z-depth-0" id="divide">&divide;</button>
+                </div>
+
+                <div class="row">
+                   <button type="button" class="col s3 btn teal lighten-2 z-depth-0 number" id="seven">7</button>
+                   <button type="button" class="col s3 btn teal lighten-2 z-depth-0 number" id="eight">8</button>
+                   <button type="button" class="col s3 btn teal lighten-2 z-depth-0 number" id="nine">9</button>
+                   <button type="button" class="col s3 btn teal lighten-2 z-depth-0" id="multiply">&times;</button>
+                </div>
+
+                <div class="row">
+                   <button type="button" class="col s3 btn teal lighten-2 z-depth-0 number" id="four">4</button>
+                   <button type="button" class="col s3 btn teal lighten-2 z-depth-0 number" id="five">5</button>
+                   <button type="button" class="col s3 btn teal lighten-2 z-depth-0 number" id="six">6</button>
+                   <button type="button" class="col s3 btn teal lighten-2 z-depth-0" id="subtract">&minus;</button>
+                </div>
+
+                <div class="row">
+                   <button type="button" class="col s3 btn teal lighten-2 z-depth-0 number" id="one">1</button>
+                   <button type="button" class="col s3 btn teal lighten-2 z-depth-0 number" id="two">2</button>
+                   <button type="button" class="col s3 btn teal lighten-2 z-depth-0 number" id="three">3</button>
+                   <button type="button" class="col s3 btn teal lighten-2 z-depth-0" id="add">&plus;</button>
+                </div>
+
+                <div class="row">
+                   <button type="button" class="col s6 btn teal lighten-2 z-depth-0 number" id="zero">0</button>
+                   <button type="button" class="col s3 btn teal lighten-2 z-depth-0 number" id="point">.</button>
+                   <button type="button" class="col s3 btn teal lighten-2 z-depth-0" id="equal">&#61;</button>
+                </div>
+            </div>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
+
+
+
+<!--
+<!DOCTYPE html>
 <html lang='en'>
 <head>
     <meta charset="utf-8">
@@ -11,10 +70,10 @@
 <body>
 <div class="container-fluid">
     <div class="row">
-        <div class="col-sm-12" id="display">Hello World!</div>
+        <div class="col-sm-12" id="display"></div>
     </div>
     <div class="row">
-        <button type="button" class="btn btn-large btn-default col-xs-3" id="allClear">AC</button>
+        <button type="button" class="btn   btn-large btn-default col-xs-3" id="allClear">AC</button>
         <button type="button" class="btn btn-large btn-default col-xs-3" id="plusMinus">&plusmn;</button>
         <button type="button" class="btn btn-large btn-default col-xs-3" id="percent">%</button>
         <button type="button" class="btn btn-large btn-default col-xs-3" id="divide">&divide;</button>
@@ -44,9 +103,8 @@
         <button type="button" class="btn btn-large btn-default col-xs-3" id="equal">&#61;</button>
     </div>
 </div>
-
-<!--comment-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
 <script src="assets/js/main.js"></script>
 </body>
-</html>
+</html> -->

@@ -1,0 +1,3 @@
+1. Fix precision on irrational fractions
+2. Fix closure on +/- operation (override firstNumber)
+3. Limit the numArray as well as numString to 8 characters

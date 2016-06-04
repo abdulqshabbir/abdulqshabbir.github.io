@@ -1,37 +1,28 @@
-html, body, h1, h2, h3 {
-  margin: 0px;
-  padding: 0px; }
+h1, h2, h3, .btn, .row {
+  margin: 0;
+  padding: 0; }
 
-#divide, #multiply, #subtract, #add, #equal {
-  background-color: #ff8c00;
-  color: #fff; }
+html, body {
+  height: 100%; }
 
-#allClear, #plusMinus, #percent, #one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #zero, #point {
-  background-color: #d6d6d6; }
-
-html {
-  background-size: 800px; }
-
-body {
+.container-calculator {
   max-width: 230px;
-  margin-top: 80px;
   margin-left: auto;
   margin-right: auto; }
 
 #display {
-  width: 230px;
   height: 78px;
-  line-height: 78px;
+  width: 230px;
   background-color: #4c4c4c;
   font-family: "Orbitron", sans-serif;
   font-weight: 200;
-  font-size: 20px;
   text-align: right;
-  color: #fff; }
+  color: #fff;
+  font-size: 25px; }
 
 .btn {
-  border-radius: 0px !important;
-  border-color: #BDBDBD;
-  height: 50px !important;
-  font-size: 18px;
-  font-weight: 200; }
+  border-radius: 0px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 200;
+  color: #fff; }
